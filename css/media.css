@@ -9,6 +9,9 @@
     .header__item {
         padding-left: 0;
     }
+    .about__item {
+        padding-right: 30px;
+    }
 }
 @media screen and (max-width:767px) {
     .header {
@@ -25,5 +28,14 @@
     .header__item {
         padding: 0;
         text-align: center;
+    }
+    .about__content {
+        flex-direction: column;
+        max-width: 440px;
+    }
+}
+@media screen and (max-width:479px) {
+    .about__content {
+        max-width: 320px;
     }
 }
