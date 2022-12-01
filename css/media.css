@@ -1,4 +1,7 @@
 @media screen and (max-width:979px) {
+    .first-screen, .about, .content, .sponsors, .bottom, .footer {
+        padding: 0 20px;
+    }
     .header {
         flex-direction: column;
         margin-bottom: 60px;
@@ -11,6 +14,18 @@
     }
     .about__item {
         padding-right: 30px;
+    }
+    .content__left {
+        padding-right: 25px;
+    }
+    .content__subtitle-resp {
+        max-width: 120px;
+    }
+    .content__subtitle-right, .content__text {
+        padding-left: 9px;
+    }
+    .bottom__item {
+        max-width: 200px;
     }
 }
 @media screen and (max-width:767px) {
@@ -33,9 +48,72 @@
         flex-direction: column;
         max-width: 440px;
     }
+    .content__wrap {
+        flex-direction: column;
+        max-width: 440px;
+    }
+    .content__subtitle-resp {
+        max-width: 320px;
+    }
+    .content__subtitle-right, .content__text {
+        padding-left: 0;
+    }
+    .sponsors__wrap {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 20px;
+        padding: 25px 60px 30px;
+    }
+    .bottom__wrap {
+        flex-direction: column;
+    }
+    .bottom__item {
+        max-width: fit-content;
+        margin-bottom: 60px;
+    }
+    .footer__wrap {
+        flex-direction: column;
+    }
+    .footer__menu {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .footer__design {
+        max-width: fit-content;
+        margin: 0 auto;
+    }
 }
 @media screen and (max-width:479px) {
     .about__content {
         max-width: 320px;
+    }
+    .content__wrap {
+        max-width: 290px;
+    }
+    .content__slider {
+        min-height: 480px;
+    }
+    .content__subtitle-resp {
+        max-width: 120px;
+    }
+    .content__subtitle-right, .content__text {
+        padding-left: 9px;
+    }
+    .sponsors__wrap {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 60px;
+        padding: 25px 20px 30px;
+    }
+}
+@media screen and (max-width:319px) {
+    .sponsors__wrap {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 30px;
+        padding: 25px 10px 30px;
     }
 }
