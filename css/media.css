@@ -1,5 +1,5 @@
 @media screen and (max-width:979px) {
-    .first-screen, .about, .content, .sponsors, .bottom, .footer {
+    .header, .about, .content, .sponsors, .bottom, .footer {
         padding: 0 20px;
     }
     .header {
@@ -11,6 +11,9 @@
     }
     .header__item {
         padding-left: 0;
+    }
+    .slider__wrap {
+        padding: 85px 20px;
     }
     .about__item {
         padding-right: 30px;
@@ -43,6 +46,9 @@
     .header__item {
         padding: 0;
         text-align: center;
+    }
+    .slider {
+        display: none;
     }
     .about__content {
         flex-direction: column;

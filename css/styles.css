@@ -25,7 +25,7 @@
     background-size: cover;
     border-bottom: 1px solid #33253a;
 }
-.first-screen, .about, .content, .sponsors, .bottom, .footer {
+.header, .about, .content, .sponsors, .bottom, .footer {
     padding: 0 10px;
 }
 /* Header logo/menu styles start */
@@ -86,12 +86,55 @@
 
 /* Slider styles start */
 .slider {
+    padding: 0;
+    background-color: rgba(0,0,0,0.2)
+}
+.slider__wrap {
+    display: flex;
     max-width: 960px;
     margin: 0 auto 170px;
-    text-align: center;
-    font-size: 42px;
-    font-weight: 800;
-    font-style: italic;
+    padding: 85px 0;
+}
+.slider__left {
+    flex-basis: 50%;
+}
+.slider__title {
+    margin-bottom: 12px;
+    font-size: 60px;
+    line-height: 36px;
+    font-weight: 400;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+    color: #fefefe;
+}
+.slider__subtitle {
+    margin-bottom: 12px;
+    line-height: 36px;
+    font-weight: 400;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+    font-size: 32px;
+    color: #edbfff;
+}
+.slider__txt {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: -0.025em;
+    color: #ffffff;
+}
+.slider__right {
+    flex-basis: 50%;
+    position: relative;
+}
+.iphone-back {
+    position: absolute;
+    top: -30px;
+    left: 50px;
+}
+.iphone-front {
+    position: absolute;
+    top: -110px;
+    left: 150px;
 }
 /* Slider styles end */
 
