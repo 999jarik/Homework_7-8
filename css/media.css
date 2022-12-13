@@ -1,4 +1,4 @@
-@media screen and (max-width:979px) {
+@media screen and (max-width:959px) {
     .header, .about, .content, .sponsors, .bottom, .footer {
         padding: 0 20px;
     }
