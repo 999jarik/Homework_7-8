@@ -11,154 +11,25 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-    <!-- Переписати весь html та відредагувати відповідно styles.css -->
-    <div class="first-screen">
-        <header class="header">
-            <a href="#" class="header__logo">
-                <div class="header__pingbull logo-txt">
-                    pingbull
-                </div>
-                <div class="header__er logo-txt">
-                    er
-                </div>
-            </a>
-            <ul class="header__menu">
-                <li class="header__item"><a href="#" class="header__link">home</a></li>
-                <li class="header__item"><a href="#about" class="header__link">about</a></li>
-                <li class="header__item"><a href="#" class="header__link">blog</a></li>
-                <li class="header__item"><a href="#" class="header__link">products</a></li>
-                <li class="header__item"><a href="#sponsors" class="header__link">lorem ipsum</a></li>
-                <li class="header__item"><a href="#footer" class="header__link">dolor sit amet</a></li>
-            </ul>
-        </header>
-        <div class="menu-res">
-            <a href="#" class="header__menu-button">menu</a>
-            <ul class="menu__drop">
-                <li class="item-res"><a href="#about" class="header__link-res">about</a></li>
-                <li class="item-res"><a href="#" class="header__link-res">blog</a></li>
-                <li class="item-res"><a href="#" class="header__link-res">products</a></li>
-                <li class="item-res"><a href="#sponsors" class="header__link-res">sponsors</a></li>
-                <li class="item-res"><a href="#footer" class="header__link-res">footer</a></li>
-            </ul>
+    <section class="first-screen">
+        <div class="header">
+            <div class="wrap header__container">
+                <a href="#" class="header__logo-link"><img src="img/logo.png" alt="PINGBULLER" class="header__logo"></a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#" class="menu__link">home</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">about</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">blog</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">products</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">lorem ipsum</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">dolor sit amet</a></li>
+                     </ul>
+                </nav>
+            </div>
         </div>
         <div class="slider">
-            <div class="slider__wrap">
-                 <div class="slider__left">
-                    <h2 class="slider__title">Lorem Ipsum Dolor</h2>
-                    <h3 class="slider__subtitle">It will make all of your dreams come true</h3>
-                    <p class="slider__txt">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</p>
-                 </div>
-                 <div class="slider__right">
-                    <img src="img/iphone_back.png" alt="" class="iphone-back">
-                    <img src="img/iphone_front.png" alt="" class="iphone-front">
-                 </div>
-            </div>
+            <div class="wrap"></div>
         </div>
-    </div>
-    <div class="about">
-        <a id="about"></a>
-        <div class="about__content">
-            <div class="about__item">
-                <div class="about__pic first-pic"></div>
-                <div class="about__subtitle">about our company</div>
-                <div class="about__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam...
-                </div>
-                <a href="#" class="about__link">read more</a>
-            </div>
-            <div class="about__item">
-                <div class="about__pic second-pic"></div>
-                <div class="about__subtitle">about our company</div>
-                <div class="about__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam...
-                </div>
-                <a href="#" class="about__link">read more</a>
-            </div>
-            <div class="about__item">
-                <div class="about__pic third-pic"></div>
-                <div class="about__subtitle">about our company</div>
-                <div class="about__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam...
-                </div>
-                <a href="#" class="about__link">read more</a>
-            </div>
-        </div>
-    </div>
-    <div class="content">
-        <div class="content__wrap">
-            <div class="content__left content__item">
-                <img class="content__img-face" src="img/face.png" alt="">
-                <div class="content__slider">
-                    <h2 class="content__subtitle content__subtitle-resp">pingbuller <span class="content__subtitle-right">starts here</span></h2>
-                    <p class="content__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</p>
-                </div>
-                <div class="content__indicator">
-                    <div class="content__indicator-item"></div>
-                    <div class="content__indicator-item">
-                        <div class="indicator-inside"></div>
-                    </div>
-                    <div class="content__indicator-item"></div>
-                    <div class="content__indicator-item"></div>
-                </div>
-            </div>
-            <div class="content__right content__item">
-                <h2 class="content__subtitle">recent updates</h2>
-                <ul class="content__list">
-                    <li class="content__list-item list-first">
-                        <h4 class="content__list-title">Nunc turpis neque feugiat eget</h4>
-                        <p class="content__list-text">Posted by Admin on March 13 2012 in Recent News</p>
-                    </li>
-                    <li class="content__list-item list-second">
-                        <h4 class="content__list-title">Nunc turpis neque feugiat eget</h4>
-                        <p class="content__list-text">Posted by Admin on March 13 2012 in Recent News</p>
-                    </li>
-                    <li class="content__list-item list-third">
-                        <h4 class="content__list-title">Nunc turpis neque feugiat eget</h4>
-                        <p class="content__list-text">Posted by Admin on March 13 2012 in Recent News</p>
-                    </li>
-                </ul>
-                <a href="#" class="content__right-link">read more here</a>
-            </div>
-        </div>
-    </div>
-    <div class="sponsors">
-        <a id="sponsors"></a>
-        <div class="sponsors__wrap">
-            <a href="#" class="sponsors__link"><img src="img/bilabong.png" alt="" class="sponsors__pic"></a>
-            <a href="#" class="sponsors__link"><img src="img/dolce.png" alt="" class="sponsors__pic"></a>
-            <a href="#" class="sponsors__link"><img src="img/palm.png" alt="" class="sponsors__pic"></a>
-            <a href="#" class="sponsors__link"><img src="img/awsm.png" alt="" class="sponsors__pic"></a>
-            <a href="#" class="sponsors__link"><img src="img/rvca.png" alt="" class="sponsors__pic"></a>
-            <a href="#" class="sponsors__link"><img src="img/vonz.png" alt="" class="sponsors__pic"></a>
-        </div>
-    </div>
-    <div class="bottom">
-        <div class="bottom__wrap">
-            <div class="bottom__item">
-                <h2 class="bottom__brand">pingbull<span class="bottom__brand-er">er</span></h2>
-                <h5 class="bottom__copyright">Copyright 2013, Pingbull AS</h5>
-                <div class="bottom__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul</div>
-            </div>
-            <div class="bottom__item">
-                <h3 class="bottom__subtitle">RECENT COMMENTS</h3>
-                <div class="bottom__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque.</div>
-            </div>
-            <div class="bottom__item">
-                <h3 class="bottom__subtitle">NEWS CATEGORIES</h3>
-                <div class="bottom__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque.</div>
-            </div>
-        </div>
-    </div>
-    <footer class="footer">
-        <a id="footer"></a>
-        <div class="footer__wrap">
-            <ul class="footer__menu">
-                <li class="header__item"><a href="#" class="header__link footer__link">home</a></li>
-                <li class="header__item"><a href="#about" class="header__link footer__link">about</a></li>
-                <li class="header__item"><a href="#" class="header__link footer__link">blog</a></li>
-                <li class="header__item"><a href="#" class="header__link footer__link">products</a></li>
-                <li class="header__item"><a href="#sponsors" class="header__link footer__link">lorem ipsum</a></li>
-                <li class="header__item"><a href="#footer" class="header__link footer__link">dolor sit amet</a></li>
-            </ul>
-            <div class="footer__design">Designed by <span>Pingbull AS</span></div>
-        </div>
-    </footer>
+    </section>
 </body>
 </html>
