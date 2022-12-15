@@ -92,26 +92,48 @@
     padding: 79px 0 70px 12px;
 }
 .about__item {
-    display: flex;
+    max-width: 282px;
+    padding-left:54px;
 }
-.about__ico {
-    margin-top: 6px;
-    margin-left: 2px;
-    width: 30px;
-    height: 25px;
-    background-image: url(../img/about_pic.png);
+.about__item-1 {
+    background-image: url(../img/about_wrench.png);
     background-repeat: no-repeat;
+    background-position: 2px 6px;
 }
+.about__item-2 {
+    padding-left:57px;
+    background-image: url(../img/about_idea.png);
+    background-repeat: no-repeat;
+    background-position: 4px 6px;}
+.about__item-3 {
+    padding-left:61px;
+    background-image: url(../img/about_note.png);
+    background-repeat: no-repeat;
+    background-position: 10px 6px;}
 .about__title {
-    margin-bottom: 11px;
+    margin-bottom: 12px;
     font-size: 30px;
-    line-height: 24px;
+    line-height: 22px;
     font-weight: 400;
+    letter-spacing: -0.01em;
     text-transform: uppercase;
     text-shadow: 0px 1px 0px #0f1518;
     color: #ffffff;
 }
+.about__text {
+    margin-bottom: 16px;
+    max-height: 120px;
+    overflow: hidden;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    font-weight: 300;
+    text-shadow: 0px 1px 0px #0f1518;
+    color: #ffffff;
+}
 .about__link {
+    padding-right: 12px;
     float: right;
     font-size: 18px;
     line-height: 24px;
@@ -119,6 +141,12 @@
     text-shadow: 0px 1px 0px #0f1518;
     text-transform: uppercase;
     color: #ffffff;
+}
+.about__link-2 {
+    padding-right: 4px;
+}
+.about__link-3 {
+    padding-right: 0;
 }
 .about__link:hover {
     text-shadow: 0px 0px 8px rgba(255,255,255,0.8);
