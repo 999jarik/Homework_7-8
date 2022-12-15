@@ -291,6 +291,25 @@
 /* RECENT STYLES END */
 
 
+/* SPONSORS STYLES START */
+.sponsors__box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding: 22px 95px;
+}
+.sponsors__link:nth-child(2) {
+    padding-left: 10px;
+}
+.sponsors__link:nth-child(3) {
+    padding-left: 10px;
+}
+.sponsors__link:nth-child(4) {
+    padding-left: 13px;
+}
+/* SPONSORS STYLES END */
+
+
 /* FOOTER STYLES START */
 .footer {
     background-image: url(../img/bg_footer.png);
