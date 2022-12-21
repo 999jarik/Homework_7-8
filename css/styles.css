@@ -20,6 +20,17 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Georgia';
+    src: url('../fonts/Georgia-Italic.eot');
+    src: url('../fonts/Georgia-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Georgia-Italic.woff2') format('woff2'),
+        url('../fonts/Georgia-Italic.woff') format('woff'),
+        url('../fonts/Georgia-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
 
 
 .wrap {
@@ -51,9 +62,9 @@
     display: flex;
 }
 .menu__item {
-    margin-left: 51px;
+    margin-right: 51px;
 }
-.menu__item:first-child {
+.menu__item:last-child {
     margin: 0;
 }
 .menu__link {
@@ -296,19 +307,88 @@
     display: flex;
     justify-content: space-between;
     padding-top: 22px;
-    padding: 22px 95px;
+    padding: 22px 88px 28px 95px;
 }
 .sponsors__link:nth-child(2) {
-    padding-left: 10px;
+    padding-left: 6px;
 }
 .sponsors__link:nth-child(3) {
-    padding-left: 10px;
+    padding-left: 5px;
 }
 .sponsors__link:nth-child(4) {
-    padding-left: 13px;
+    padding-left: 4px;
 }
 /* SPONSORS STYLES END */
 
+
+/* BOTTOM STYLES START */
+.bottom {
+    background: #ececec;
+}
+.bottom__container {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom__item {
+    padding: 102px 0 94px 60px;
+}
+.bottom__item:first-child {
+    padding: 102px 0 0 0;
+}
+.bottom__brand {
+    margin-bottom: 19px;
+    font-family: 'League Gothic';
+    font-size: 48px;
+    line-height: 33px;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px #ffffff;
+    color: #454545;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+}
+.bottom__brand-er {
+    font-family: 'League Gothic';
+    font-size: 48px;
+    line-height: 33px;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px #ffffff;
+    color: #b9b9b9;
+}
+.bottom__copyright {
+    margin-bottom: 6px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: 0px 1px 0px #ffffff;
+    color: #c5c5c5;
+    letter-spacing: -0.01em;
+}
+.bottom__subtitle {
+    margin-bottom: 10px;
+    font-family: 'League Gothic';
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px #ffffff;
+    color: #454545;
+    letter-spacing: -0.008em;
+}
+.bottom__text {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    text-shadow: 0px 1px 0px #ffffff;
+    color: #787878;
+    letter-spacing: -0.03em;
+}
+.bottom__text-1 {
+    width: 278px;
+}
+
+/* BOTTOM STYLES END */
 
 /* FOOTER STYLES START */
 .footer {
@@ -316,7 +396,31 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.footer__container {
+    padding: 39px 0 40px 0;
+}
+.footer__menu {
+    display: inline-block;
+    padding: 0;
+}
+.footer__item {
+    margin-right: 43px;
+}
 .footer__link {
     font-size: 20px;
+}
+.footer__author {
+    float: right;
+    padding-top: 4px;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 33px;
+    font-weight: 300;
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.4);
+    color: #ffffff;
+}
+.footer__author span {
+    font-weight: 800;
+    letter-spacing: 0.23em;
 }
 /* FOOTER STYLES END */
