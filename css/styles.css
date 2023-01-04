@@ -319,7 +319,6 @@
     background-color: #fff;
 }
 .custom-radio:checked+label::before {
-    /* background: linear-gradient(0deg, rgba(70,70,70,1) 40%, rgba(136,136,136,1) 86%); */
     background-image: url(../img/svg/inside_switch.svg);
     background-repeat: no-repeat;
     background-size: 75%;
