@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: SketchAPI 2022.10.18.0 https://api.sketch.io -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketchjs="https://sketch.io/dtd/" sketchjs:metadata="eyJuYW1lIjoiM2Y0ZDBkNzEtMDZlYS00MTcxLThmOTMtNmEwOTBjMTA0MjNlLnNrZXRjaHBhZCIsInN1cmZhY2UiOnsiaXNQYWludCI6dHJ1ZSwibWV0aG9kIjoiZmlsbCIsImJsZW5kIjoibm9ybWFsIiwiZW5hYmxlZCI6dHJ1ZSwib3BhY2l0eSI6MSwidHlwZSI6InBhdHRlcm4iLCJwYXR0ZXJuIjp7InR5cGUiOiJwYXR0ZXJuIiwicmVmbGVjdCI6Im5vLXJlZmxlY3QiLCJyZXBlYXQiOiJyZXBlYXQiLCJzbW9vdGhpbmciOmZhbHNlLCJzcmMiOiJ0cmFuc3BhcmVudExpZ2h0Iiwic3giOjEsInN5IjoxLCJ4MCI6MC41LCJ4MSI6MSwieTAiOjAuNSwieTEiOjF9LCJpc0ZpbGwiOnRydWV9LCJjbGlwUGF0aCI6eyJlbmFibGVkIjp0cnVlLCJzdHlsZSI6eyJzdHJva2VTdHlsZSI6ImJsYWNrIiwibGluZVdpZHRoIjoxfX0sImRlc2NyaXB0aW9uIjoiTWFkZSB3aXRoIFNrZXRjaHBhZCIsIm1ldGFkYXRhIjp7fSwiZXhwb3J0RFBJIjo3MiwiZXhwb3J0Rm9ybWF0IjoicG5nIiwiZXhwb3J0UXVhbGl0eSI6MC45NSwidW5pdHMiOiJweCIsIndpZHRoIjoxMDgsImhlaWdodCI6MTA4LCJwYWdlcyI6W3sid2lkdGgiOjEwOCwiaGVpZ2h0IjoxMDh9XSwidXVpZCI6IjZlMTMwNmY1LWM1MzgtNDc4MC05N2YzLWEwMThiMzM4MTJkMyJ9" width="108" height="108" viewBox="0 0 108 108">
+<defs>
+	<linearGradient id="dna_544618041" gradientUnits="userSpaceOnUse" x1="54.20311001203224" x2="54.20311001203224" y1="108.40622002406448" y2="0">
+		<stop offset="0" style="stop-color:rgb(232, 232, 232);stop-opacity:1;"/>
+		<stop offset="0.473" style="stop-color:#f6f6f6;"/>
+		<stop offset="1" style="stop-color:rgb(233, 233, 233);stop-opacity:1;"/>
+	</linearGradient>
+</defs>
+<path style="fill: url(#dna_544618041); mix-blend-mode: source-over; fill-opacity: 1; vector-effect: non-scaling-stroke;" sketchjs:tool="circle" d="M54.203 0 C84.139 0 108.406 24.268 108.406 54.203 108.406 84.139 84.139 108.406 54.203 108.406 24.268 108.406 0 84.139 0 54.203 0 24.268 24.268 0 54.203 0 z" transform="matrix(0.9999949269133752,-0.003185301793137102,0.003185301793137102,0.9999949269133752,-0.3769925375145249,-0.017212302952941627)"/>
+</svg>
