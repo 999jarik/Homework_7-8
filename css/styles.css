@@ -47,7 +47,7 @@
 .header__container {
     display: flex;
     justify-content: space-between;
-    padding-top: 72px;
+    padding-top: 69px;
     margin-bottom: 168px;
 }
 .header__logo {
