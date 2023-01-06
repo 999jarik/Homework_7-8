@@ -1,4 +1,7 @@
 @media screen and (min-width:768px) and (max-width:959px) {
+    .first-screen {
+        padding-bottom: 98px;
+    }
     .wrap {
         max-width: 768px;
         padding-left: 19px;
@@ -23,12 +26,30 @@
         font-size: 24px;
         max-width: 280px;
         height: 24px;
-        margin-bottom: 10px;
+        margin-bottom: 6px;
     }
     .slider__text {
         font-size: 16px;
+        max-width: 280px;
+        line-height: 24px;
+        height: 110px;
+        overflow: hidden;
+    }
+    .slider__text::first-line {
+        line-height: 34px;
+    }
+    .slider__img {
+        left: 124px;
+        bottom: -120px;
+    }
+    .slider__switches {
+        padding-top: 36px;
+        padding-right: 138px;
     }
 }
+
+
+
 @media screen and (max-width:767px) {
     .wrap {
         max-width: 480px;
@@ -45,4 +66,7 @@
         display: none;
     }
 }
+
+
+
 @media screen and (max-width:479px) {}
