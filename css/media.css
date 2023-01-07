@@ -1,6 +1,6 @@
 @media screen and (min-width:768px) and (max-width:959px) {
     .first-screen {
-        padding-bottom: 98px;
+        padding-bottom: 97px;
     }
     .wrap {
         max-width: 768px;
@@ -11,7 +11,13 @@
         flex-direction: column;
         margin-bottom: 68px;
     }
+    .header__logo-link768 {
+        display: block;
+        padding: 1px 0 0 0;
+        margin-bottom: 26px;
+    }
     .header__logo-link {
+        display: none;
         margin-bottom: 26px;
     }
     .slider__slide {
@@ -26,14 +32,16 @@
         font-size: 24px;
         max-width: 280px;
         height: 24px;
-        margin-bottom: 6px;
+        margin-bottom: 4px;
     }
     .slider__text {
         font-size: 16px;
-        max-width: 280px;
+        max-width: 260px;
         line-height: 24px;
         height: 110px;
         overflow: hidden;
+        word-break: break-all;
+        word-spacing: 0.16em;
     }
     .slider__text::first-line {
         line-height: 34px;
@@ -46,11 +54,45 @@
         padding-top: 36px;
         padding-right: 138px;
     }
+    .about__container {
+        padding-top: 78px;
+    }
+    .about__item {
+        background-image: url(../img/about_wrench.png);
+        background-position: 14px 3px;
+    }
+    .about__item:nth-child(2) {
+        background-image: url(../img/about_wrench.png);
+        background-position: 28px 3px;
+    }
+    .about__item:nth-child(3) {
+        background-image: url(../img/about_wrench.png);
+        background-position: 46px 3px;
+    }
+    .about__title {
+        margin-bottom: 4px;
+        font-size: 24px;
+        padding-left: 12px;
+    }
+    .about__title-2 {
+        padding-left: 18px;
+    }
+    .about__title-3 {
+        padding-left: 32px;
+    }
+    .about__text {
+        margin-bottom: 9px;
+        max-height: 140px;
+        padding-left: 12px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
 }
 
 
 
-@media screen and (max-width:767px) {
+/* @media screen and (max-width:767px) {
     .wrap {
         max-width: 480px;
         padding-left: 20px;
@@ -69,4 +111,4 @@
 
 
 
-@media screen and (max-width:479px) {}
+@media screen and (max-width:479px) {} */

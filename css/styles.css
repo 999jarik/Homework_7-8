@@ -51,7 +51,10 @@
     margin-bottom: 168px;
 }
 .header__logo {
-    max-width: 152px;
+    max-width: 155px;
+}
+.header__logo-link768 {
+    display: none;
 }
 .menu {
     display: flex;
@@ -93,14 +96,14 @@
     display: flex;
 }
 .slider__left {
-    max-width: 52%;
+    max-width: 54%;
 }
 .slider__right {
     position: relative;
 }
 .slider__img {
     position: absolute;
-    left: 118px;
+    left: 100px;
     bottom: -98px;
 }
 .slider__title {
@@ -125,6 +128,7 @@
     line-height: 24px;
     font-weight: 300;
     letter-spacing: -0.04em;
+    word-spacing: 0.14em;
     color: #ffffff;
 }
 .slider__switches {
@@ -176,19 +180,17 @@
 }
 .about__item {
     max-width: 282px;
-    padding-left:54px;
-}
-.about__item-1 {
+    padding-left: 52px;
     background-image: url(../img/about_wrench.png);
     background-repeat: no-repeat;
     background-position: 2px 6px;
 }
-.about__item-2 {
+.about__item:nth-child(2) {
     padding-left:57px;
     background-image: url(../img/about_idea.png);
     background-repeat: no-repeat;
     background-position: 4px 6px;}
-.about__item-3 {
+.about__item:nth-child(3) {
     padding-left:61px;
     background-image: url(../img/about_note.png);
     background-repeat: no-repeat;
@@ -198,6 +200,7 @@
     font-size: 29px;
     line-height: 22px;
     font-weight: 400;
+    letter-spacing: 0.006em;
     text-transform: uppercase;
     text-shadow: 0px 1px 0px #0f1518;
     color: #ffffff;
@@ -205,6 +208,7 @@
 .about__title-2,
 .about__title-3 {
     padding-left: 2px;
+    letter-spacing: 0.005em;
 }
 .about__text {
     margin-bottom: 16px;
@@ -283,6 +287,7 @@
 }
 .recent__slide-text {
     overflow: hidden;
+    padding-right: 20px;
     height: 165px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -291,6 +296,7 @@
     letter-spacing: -0.025em;
     text-shadow: 0px 1px 0px #ffffff;
     color: #454545;
+    word-spacing: 0.2em;
 }
 .recent__switches {
     padding-top: 6px;
@@ -336,10 +342,12 @@
     background-repeat: no-repeat;
     background-position: 4px 0;
 }
-.list-style2 {
+.recent__news-item:nth-child(2) {
+    padding-top: 2px;
     background-image: url(../img/list_style2.png);
+    margin-bottom: 16px;
 }
-.list-style3 {
+.recent__news-item:nth-child(3) {
     background-image: url(../img/list_style3.png);
 }
 .recent__news-subtitle,
