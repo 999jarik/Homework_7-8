@@ -379,6 +379,9 @@
 .recent__news-link:hover {
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
 }
+.recent__news-link-2 {
+    display: none;
+}
 /* RECENT STYLES END */
 
 
