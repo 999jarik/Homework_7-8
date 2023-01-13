@@ -225,7 +225,7 @@
 
 
 
-/* @media screen and (max-width:767px) {
+@media screen and (min-width:480px) and (max-width:767px) {
     .wrap {
         max-width: 480px;
         padding-left: 20px;
@@ -240,8 +240,11 @@
     .menu {
         display: none;
     }
+    .footer__menu {
+        display: block;
+    }
 }
 
 
 
-@media screen and (max-width:479px) {} */
+@media screen and (max-width:479px) {}
