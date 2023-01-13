@@ -421,6 +421,9 @@
 .bottom__item:first-child {
     padding: 102px 0 0 0;
 }
+.bottom__item-clone {
+    display: none;
+}
 .bottom__brand {
     margin-bottom: 19px;
     font-family: 'League Gothic';
