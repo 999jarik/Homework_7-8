@@ -226,6 +226,9 @@
 
 
 @media screen and (min-width:480px) and (max-width:767px) {
+    .first-screen {
+        padding-bottom: 57px;
+    }
     .wrap {
         max-width: 480px;
         padding-left: 20px;
@@ -233,6 +236,8 @@
     }
     .header__container {
         flex-direction: column;
+        padding-top: 68px;
+        margin-bottom: 92px;
     }
     .header__logo-link {
         margin: 0 auto;
@@ -240,8 +245,41 @@
     .menu {
         display: none;
     }
+    .slider {
+        min-height: 246px;
+    }
+    .slider__slide {
+        padding-top: 92px;
+    }
+    .slider__left {
+        padding-left: 20px;
+    }
+    .slider__title {
+        font-size: 36px;
+        margin-bottom: 3px;
+    }
+    .slider__subtitle {
+        height: 20px;
+        font-size: 18px;
+        overflow: hidden;
+    }
+    .slider__text {
+        display: none;
+    }
+    .slider__img {
+        position: absolute;
+        left: 0px;
+        bottom: -136px;
+        max-width: 192px;
+    }
+    .slider__switches {
+        padding: 22px 189px 0 0;
+    }
     .footer__menu {
         display: block;
+    }
+    .bottom {
+        display: none;
     }
 }
 
