@@ -248,6 +248,8 @@
         margin: 0 auto;
     }
     .dropmenu__item {
+        width: 180px;
+        text-align: center;
         display: block;
         margin: 0 auto;
         position: relative;
@@ -319,4 +321,8 @@
 
 
 
-@media screen and (max-width:479px) {}
+@media screen and (max-width:479px) {
+    .menu {
+        display: none;
+    }
+}
