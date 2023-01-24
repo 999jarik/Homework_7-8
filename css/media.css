@@ -236,46 +236,63 @@
     .header__container {
         flex-direction: column;
         padding-top: 68px;
-        margin-bottom: 92px;
+        margin-bottom: 23px;
     }
     .header__logo-link {
         margin: 0 auto;
+        margin-bottom: 25px;
     }
     .menu {
         display: none;
     }
     .dropmenu {
-        margin: 0 auto;
-    }
-    .dropmenu__item {
-        width: 180px;
-        text-align: center;
         display: block;
-        margin: 0 auto;
-        position: relative;
     }
-    .dropmenu__button {
+    .dropmenu__main {
+        position: relative;
+        width: 300px;
+        margin: 0 auto;
+        width: 246px;
+        transition: all 0.5s ease;
+    }
+    .dropmenu__wrap-button {
+        margin: 0 auto;
+        width: fit-content;
+        font-family: 'League Gothic';
         font-size: 24px;
         line-height: 42px;
         font-weight: 400;
         text-transform: uppercase;
-        color: #ffffff
+        color: #ffffff;
+        border-bottom: 2px solid rgba(237,191,255, 0);
     }
     .dropmenu__list {
-        height: 0;
-        left: 0;
-        opacity: 0;
+        width: 246px;
+        display: none;
         position: absolute;
-        transition: all .5s ease;
-        top: 35px;
-        width: 100%;
+        z-index: 2;
+        top: -4px;
+        left: 50%;
+        transform: translate(-50%);
+        transition: all 0.5s ease;
+        background: rgba(53, 39, 61, 0.9);
+        border-radius: 3%;
     }
-    .dropmenu__item li:hover .dropmenu__list {
-        height: 200px;
-        opacity: 1;
-        transform: translateY(0);
+    .dropmenu__item {
+        width: fit-content;
+        margin: 0 auto;
+        padding: 9px 0 0 0;
     }
-
+    .dropmenu__item:last-child {
+        margin: 0 auto;
+        padding-bottom: 6px;
+    }
+    .dropmenu__link {
+        text-align: center;
+    }
+    .dropmenu__main:hover .dropmenu__list {
+        display: block;
+    }
 
     .slider {
         min-height: 246px;
@@ -291,7 +308,7 @@
         margin-bottom: 3px;
     }
     .slider__subtitle {
-        height: 20px;
+        height: 19px;
         font-size: 18px;
         overflow: hidden;
     }
@@ -301,7 +318,7 @@
     .slider__img {
         position: absolute;
         left: 0px;
-        bottom: -136px;
+        bottom: -137px;
         max-width: 192px;
     }
     .slider__switches {
@@ -324,5 +341,53 @@
 @media screen and (max-width:479px) {
     .menu {
         display: none;
+    }
+    .dropmenu {
+        display: block;
+    }
+    .dropmenu__main {
+        position: relative;
+        width: 300px;
+        margin: 0 auto;
+        width: 246px;
+        transition: all 0.5s ease;
+    }
+    .dropmenu__wrap-button {
+        margin: 0 auto;
+        width: fit-content;
+        font-family: 'League Gothic';
+        font-size: 24px;
+        line-height: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        border-bottom: 2px solid rgba(237,191,255, 0);
+    }
+    .dropmenu__list {
+        width: 246px;
+        display: none;
+        position: absolute;
+        z-index: 2;
+        top: -4px;
+        left: 50%;
+        transform: translate(-50%);
+        transition: all 0.5s ease;
+        background: rgba(53, 39, 61, 0.9);
+        border-radius: 3%;
+    }
+    .dropmenu__item {
+        width: fit-content;
+        margin: 0 auto;
+        padding: 9px 0 0 0;
+    }
+    .dropmenu__item:last-child {
+        margin: 0 auto;
+        padding-bottom: 6px;
+    }
+    .dropmenu__link {
+        text-align: center;
+    }
+    .dropmenu__main:hover .dropmenu__list {
+        display: block;
     }
 }
