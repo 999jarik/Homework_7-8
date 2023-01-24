@@ -244,6 +244,37 @@
     .menu {
         display: none;
     }
+    .dropmenu {
+        margin: 0 auto;
+    }
+    .dropmenu__item {
+        display: block;
+        margin: 0 auto;
+        position: relative;
+    }
+    .dropmenu__button {
+        font-size: 24px;
+        line-height: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff
+    }
+    .dropmenu__list {
+        height: 0;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        transition: all .5s ease;
+        top: 35px;
+        width: 100%;
+    }
+    .dropmenu__item li:hover .dropmenu__list {
+        height: 200px;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+
     .slider {
         min-height: 246px;
     }
@@ -276,6 +307,10 @@
     }
     .footer__menu {
         display: block;
+    }
+
+    .sponsors__box {
+        flex-direction: column;
     }
     .bottom {
         display: none;

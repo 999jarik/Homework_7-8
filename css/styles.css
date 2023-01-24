@@ -56,6 +56,9 @@
 .header__logo-link768 {
     display: none;
 }
+.dropmenu__item {
+    display: none;
+}
 .menu {
     display: flex;
     align-items: center;
