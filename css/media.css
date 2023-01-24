@@ -279,13 +279,29 @@
         border-radius: 3%;
     }
     .dropmenu__item {
-        width: fit-content;
-        margin: 0 auto;
-        padding: 9px 0 0 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 4px 0;
+        border-bottom: 1px solid rgba(21, 16, 24, 0.5);
+        text-align: center;
+    }
+    .dropmenu__item:first-child {
+        padding-top: 8px;
     }
     .dropmenu__item:last-child {
         margin: 0 auto;
         padding-bottom: 6px;
+        border-bottom: none;
+    }
+    .dropmenu__item:hover {
+        background: rgba(32, 25, 36, 0.6);
+        border-bottom: 1px solid #edbfff;
+    }
+    .dropmenu__item:first-child:hover {
+        border-radius: 10px 10px 0 0;
+    }
+    .dropmenu__item:last-child:hover {
+        border-radius: 0 0 10px 10px;
     }
     .dropmenu__link {
         text-align: center;
@@ -339,6 +355,23 @@
 
 
 @media screen and (max-width:479px) {
+    .first-screen {
+        padding-bottom: 57px;
+    }
+    .wrap {
+        max-width: 360px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header__container {
+        flex-direction: column;
+        padding-top: 68px;
+        margin-bottom: 23px;
+    }
+    .header__logo-link {
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
     .menu {
         display: none;
     }
@@ -376,13 +409,29 @@
         border-radius: 3%;
     }
     .dropmenu__item {
-        width: fit-content;
-        margin: 0 auto;
-        padding: 9px 0 0 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 4px 0;
+        border-bottom: 1px solid rgba(21, 16, 24, 0.5);
+        text-align: center;
+    }
+    .dropmenu__item:first-child {
+        padding-top: 8px;
     }
     .dropmenu__item:last-child {
         margin: 0 auto;
         padding-bottom: 6px;
+        border-bottom: none;
+    }
+    .dropmenu__item:hover {
+        background: rgba(32, 25, 36, 0.6);
+        border-bottom: 1px solid #edbfff;
+    }
+    .dropmenu__item:first-child:hover {
+        border-radius: 10px 10px 0 0;
+    }
+    .dropmenu__item:last-child:hover {
+        border-radius: 0 0 10px 10px;
     }
     .dropmenu__link {
         text-align: center;
