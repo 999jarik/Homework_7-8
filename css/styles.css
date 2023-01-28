@@ -288,10 +288,11 @@
     letter-spacing: -0.002em;
     color: #edbfff;
 }
-.recent__slide-text {
+.recent__slide-text,
+.recent__slide-text480 {
     overflow: hidden;
     padding-right: 20px;
-    height: 165px;
+    height: 168px;
     font-family: 'Open Sans';
     font-size: 16px;
     line-height: 24px;
@@ -300,6 +301,9 @@
     text-shadow: 0px 1px 0px #ffffff;
     color: #454545;
     word-spacing: 0.2em;
+}
+.recent__slide-text480 {
+    display: none;
 }
 .recent__switches {
     padding-top: 6px;
@@ -392,7 +396,6 @@
 .sponsors__box {
     display: flex;
     justify-content: space-between;
-    padding-top: 22px;
     padding: 26px 88px 28px 95px;
 }
 .sponsors__link:nth-child(2) {
