@@ -172,8 +172,7 @@
 
     .sponsors__box {
         display: flex;
-        justify-content: baseline;
-        padding-top: 22px;
+        justify-content: space-between;
         padding: 26px 18px 27px 22px;
     }
     .sponsors__link:nth-child(2) {
