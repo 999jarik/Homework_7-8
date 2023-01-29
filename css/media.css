@@ -332,8 +332,7 @@
         display: none;
     }
     .slider__img {
-        position: absolute;
-        left: 0px;
+        left: -1px;
         bottom: -137px;
         max-width: 192px;
     }
@@ -349,7 +348,7 @@
     .about__title-2,
     .about__title-3,
     .about__text-2,
-    .about__text-3, {
+    .about__text-3 {
     padding: 0;
     }
     .about__item {
@@ -374,6 +373,10 @@
         font-size: 24px;
         margin-bottom: 4px;
         letter-spacing: -0.003em;
+    }
+    .about__title-2, 
+    .about__title-3 {
+        padding-left: 2px;
     }
     .about__text {
         max-height: 76px;
@@ -460,23 +463,80 @@
     }
     
     .sponsors__box {
-        max-width: 460px;
-        flex-wrap: wrap;
+        display: block;
+        max-width: 400px;
+        padding-top: 37px;
+        padding-bottom: 38px;
     }
     .sponsors__link,
     .sponsors__link:nth-child(2),
     .sponsors__link:nth-child(3),
     .sponsors__link:nth-child(4),
     .sponsors__link:nth-child(5) {
+        display: inline-block;
         padding: 0;
     }
+    .sponsors__link:first-child {
+        margin-bottom: 23px;
+        margin-left: 33px;
+        margin-right: 53px;
+    }
+    .sponsors__link:nth-child(2) {
+        margin-right: 52px;
+    }
+    .sponsors__link:nth-child(4) {
+        margin-left: 9px;
+        margin-right: 44px;
+    }
+    .sponsors__link:nth-child(5) {
+        margin-right: 49px;
+    }
 
-
-    .bottom {
+    .bottom__container {
+        flex-direction: column;
+        padding-top: 80px;
+        padding-bottom: 31px;
+    }
+    .hidden  {
         display: none;
     }
+    .bottom__item-clone {
+        display: block;
+    }
+    .bottom__item {
+        padding: 0 0 54px 8px;
+    }
+    .bottom__item:nth-child(5) {
+        padding-top: 3px;
+    }
+    .bottom__subtitle {
+        font-size: 24px;
+        margin-bottom: 9px;
+        letter-spacing: -0.005em;
+    }
+    .bottom__text {
+        height: 98px;
+        overflow: hidden;
+        font-size: 16px;
+        letter-spacing: -0.023em;
+        max-width: 440px;
+    }
+
+
     .footer__menu {
         display: block;
+        padding-left: 12px;
+        padding-top: 1px;
+    }
+    .footer__item {
+        margin-right: 24px;
+    }
+    .footer__author {
+        float: none;
+        margin: 0 auto;
+        max-width: fit-content;
+        padding-top: 19px;
+        letter-spacing: 0;
     }
 }
 
