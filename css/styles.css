@@ -273,6 +273,7 @@
     left: 0;
 }
 .recent__title {
+    flex-direction: row;
     padding-left: 2px;
     margin-bottom: 12px;
     font-family: 'League Gothic';
