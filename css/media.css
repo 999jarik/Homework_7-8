@@ -714,16 +714,17 @@
     .recent__container {
         flex-direction: column;
         padding-top: 66px;
-        padding-left: 20px;
+        padding-left: 18px;
         padding-bottom: 85px;
     }
     .recent__slide {
         background-position: 24px 4px;
-        padding-left: 58px;
+        padding-left: 60px;
         padding-top: 29px;
     }
     .recent__slide-face {
         top: 22px;
+        left: 2px;
     }
     .recent__title {
         display: flex;
@@ -744,36 +745,40 @@
     }
     .recent__switches {
         padding-top: 10px;
-        padding-left: 50px;
+        padding-left: 52px;
     }
     .recent__news {
-        padding: 47px 0 0 63px;
+        padding: 47px 0 0 0px;
     }
     .news-title {
         letter-spacing: -0.008em;
         margin-bottom: 20px;
+        font-size: 30px;
     }
     .recent__news-item {
-        margin-bottom: 20px;
+        margin-bottom: 17px;
         background-image: url(../img/list_style1.png);
         background-repeat: no-repeat;
-        background-position: 1px 0;
+        background-position: 2px 0;
     }
     .recent__news-item:nth-child(2) {
         padding-top: 0;
         background-image: url(../img/list_style2.png);
-        margin-bottom: 18px;
+        margin-bottom: 23px;
     }
     .recent__news-item:nth-child(3) {
-        margin-bottom: 16px;
+        margin-bottom: 14px;
         background-image: url(../img/list_style3.png);
     }
     .recent__news-subtitle {
-        padding-left: 66px;
+        padding-left: 68px;
         letter-spacing: 0.056em;
+        max-width: 230px;
+        overflow: hidden;
+        height: 24px;
     }
     .recent__news-text {
-        padding-left: 66px;
+        padding-left: 67px;
         height: 24px;
         overflow: hidden;
         max-width: 320px;
@@ -783,11 +788,11 @@
         display: none;
     }
     .recent__news-link-2 {
-        padding: 2px 49px 0 0;
+        padding: 1px 5px 0 0;
         display: block;
-        font-size: 18px;
+        font-size: 19px;
         line-height: 24px;
-        letter-spacing: 0.00em;
+        letter-spacing: -0.014em;
     }
 
     .sponsors__box, 
